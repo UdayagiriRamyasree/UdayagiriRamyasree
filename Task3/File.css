@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-list, .enrolled-courses {
+    margin-bottom: 20px;
+}
+
+.course {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course h3 {
+    margin: 0;
+}
+
+.course button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course button:hover {
+    background-color: #0056b3;
+}
+
+.enrolled-courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.enrolled-courses li {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
